@@ -9,24 +9,26 @@
 
   <body>
     <article class="checklist">
-      <div class="progress_bar">
-        <div class="task_counter">
-          <span class="total_task_completed">0</span>
-          <span>/</span>
-          <span class="total_task_count">7</span>
+      <div class="content__wrapper">
+        <div class="content__progress_bar">
+          <div class="task_counter">
+            <span class="total_task_completed">0</span>
+            <span>/</span>
+            <span class="total_task_count">7</span>
+          </div>
+          <div id="progress-spinner"></div>
         </div>
-        <div id="progress-spinner"></div>
-      </div>
-      <div class="content">
-        <h4 class="content__checklist">Чеклист</h4>
-        <p class="content__headline">
-          Выполнено: <span class="total_task_completed">0</span> из
-          <span class="total_task_count">7</span> действий
-        </p>
-        <p class="content__description">
-          Следующее действие:
-          <span id="next_task">Созвониться с клиентом до 23.05.24 12:00</span>
-        </p>
+        <div class="content__text">
+          <h4 class="content__text_checklist">Чеклист</h4>
+          <p class="content__text_headline">
+            Выполнено: <span class="total_task_completed">0</span> из
+            <span class="total_task_count">7</span> действий
+          </p>
+          <p class="content__text_description">
+            Следующее действие:
+            <span id="next_task">Созвониться с клиентом до 23.05.24 12:00</span>
+          </p>
+        </div>
       </div>
       <button class="open_checklist button">Открыть чеклист</button>
     </article>
